@@ -1,18 +1,18 @@
 hmbMenu.onclick = function(s) {
     if (typeof(s) == "object")
         return
-    switch(s) {
+    switch (s) {
         case "Dessert Voting":
-            ChangeForm(dessertVoting)
+            ChangeForm(dessertVoting);
             break;
-        case "Describe Me":
-            ChangeForm(describeYou)
+        case "Describe You":
+            ChangeForm(describeYou);
             break;
         case "Favorite Exercise":
-            ChangeForm(favExercise)
+            ChangeForm(favExercise);
             break;
         case "Mobile Nav":
-            ChangeForm(mobileNav)
+            ChangeForm(mobileNav);
             break;
     }
 }
